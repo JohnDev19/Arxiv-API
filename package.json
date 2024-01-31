@@ -1,20 +1,14 @@
 {
-  "name": "Arxiv-API",
+  "name": "arxiv-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "ArXiv API Search",
+  "main": "index.js",
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
-    "test": "echo \"No test specified\" && exit 1",
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JohnDev19/Arxiv-API.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JohnDev19/Arxiv-API/issues"
-  },
-  "homepage": "https://github.com/JohnDev19/Arxiv-API#readme"
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1",
+    "xml2js": "^0.4.23"
+  }
 }
