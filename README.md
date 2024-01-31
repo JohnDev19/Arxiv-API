@@ -1,5 +1,7 @@
 # ArXiv API Search
 
+- Created by JOHN RÉ PORAS
+
 This project provides a simple Express.js server to search the ArXiv API.
 
 - URL: https://ill-rose-rhinoceros-suit.cyclic.app/
