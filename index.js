@@ -1,3 +1,5 @@
+// John Rey 2024
+
 const express = require('express');
 const axios = require('axios');
 const xml2js = require('xml2js');
@@ -12,7 +14,7 @@ app.get('/search-arxiv', async (req, res) => {
     }
 
     try {
-        const arxivApiBaseUrl = `http://export.arxiv.org/api/query?search_query=${encodeURIComponent(searchQuery)}&max_results=5`;
+        const arxivApiBaseUrl = `http://export.arxiv.org/api/query?search_query=${encodeURIComponent(searchQuery)}&max_results=20`;
         const arxivResponse = await axios.get(arxivApiBaseUrl);
         const arxivXmlData = arxivResponse.data;
         const parser = new xml2js.Parser({ explicitArray: false, trim: true });
