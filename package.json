@@ -1,6 +1,7 @@
 {
   "name": "arxiv-api",
   "version": "1.0.0",
+  "author": "JOHN RÉ PORAS",
   "description": "ArXiv API Search",
   "main": "index.js",
   "scripts": {
